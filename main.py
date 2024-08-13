@@ -39,7 +39,7 @@ else:
 answer = input("Что означает программа?")
 if answer.lower() == "программное обеспечение":
     print("Правильно!")
-    score += 1
+    score += 2
 
 print("Ты получил " + str(score) + " правильных ответов!")
 if (score / 4 * 100) > 80:
